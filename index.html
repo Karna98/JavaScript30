@@ -39,14 +39,16 @@
 		<script>
 			function redirectTo(id) {
 				urlId = id.substring(4);
-				url =
-					"https://karna98.github.io/-JavaScript30/Day-" +
-					urlId +
-					"/html_day_" +
-					urlId +
-					".html";
-				anchorElement = document.querySelectorAll("a").item(urlId - 1);
-				anchorElement.href = url;
+				if (urlId < 4) {
+					url =
+						"https://karna98.github.io/-JavaScript30/Day-" +
+						urlId +
+						"/html_day_" +
+						urlId +
+						".html";
+					anchorElement = document.querySelectorAll("a").item(urlId - 1);
+					anchorElement.href = url;
+				}
 			}
 		</script>
 	</body>
