@@ -3,18 +3,51 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>karna98 #Javascript30</title>
-		<!-- <link rel="stylesheet" href="style.css" /> -->
 	</head>
 	<body>
 		<div>
-			<a href="https://karna98.github.io/-JavaScript30/Day-1/html_day_1.html"
-				><h3>Day-1 : Instrumental</h3>
-			</a>
+			<a id="Day-1" onclick="redirectTo(id)" href="#"><h3>Day-1 : Instrumental</h3> </a>
 		</div>
 		<div>
-			<a href="https://karna98.github.io/-JavaScript30/Day-2/html_day_2.html"
-				><h3>Day-2 : Clock</h3>
-			</a>
+			<a id="Day-2" onclick="redirectTo(id)" href="#"><h3>Day-2 : Clock</h3> </a>
 		</div>
+		<div>
+			<a id="Day-3" onclick="redirectTo(id)" href="#"><h3>Day-3 : Playing with CSS</h3> </a>
+		</div>
+		<div>
+			<a id="Day-4" onclick="redirectTo(id)" href="#"><h3>Day-4 :</h3> </a>
+		</div>
+		<div>
+			<a id="Day-5" onclick="redirectTo(id)" href="#"><h3>Day-5 :</h3> </a>
+		</div>
+		<div>
+			<a id="Day-6" onclick="redirectTo(id)" href="#"><h3>Day-6 :</h3> </a>
+		</div>
+		<div>
+			<a id="Day-7" onclick="redirectTo(id)" href="#"><h3>Day-7 :</h3> </a>
+		</div>
+		<div>
+			<a id="Day-8" onclick="redirectTo(id)" href="#"><h3>Day-8 :</h3> </a>
+		</div>
+		<div>
+			<a id="Day-9" onclick="redirectTo(id)" href="#"><h3>Day-9 :</h3> </a>
+		</div>
+		<div>
+			<a id="Day-10" onclick="redirectTo(id)" href="#"><h3>Day-10 :</h3> </a>
+		</div>
+
+		<script>
+			function redirectTo(id) {
+				urlId = id.substring(4);
+				url =
+					"https://karna98.github.io/-JavaScript30/Day-" +
+					urlId +
+					"/html_day_" +
+					urlId +
+					".html";
+				anchorElement = document.querySelectorAll("a").item(urlId - 1);
+				anchorElement.href = url;
+			}
+		</script>
 	</body>
 </html>
