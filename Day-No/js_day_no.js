@@ -1,4 +1,4 @@
 function functionName() {
 	console.log("<-->");
 }
-window.addEventListener("DOMCOntentLoaded", functionName);
+window.addEventListener("DOMContentLoaded", functionName);
