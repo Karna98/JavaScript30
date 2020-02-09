@@ -1,0 +1,32 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+div {
+	width: 100%;
+	padding: 100px;
+}
+
+.one {
+	background: rgb(236, 150, 236);
+	text-align: center;
+	align-items: center;
+}
+
+.two {
+	background: rgb(177, 117, 110);
+}
+
+.three {
+	background: coral;
+}
+
+button {
+	margin-left: 50%;
+}
