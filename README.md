@@ -4,7 +4,7 @@ Thanks to [@wesbos](https://github.com/wesbos) for [#Javascript30](https://javas
 
 Sample
 
-Day-No.
-Title
-Link to Explaination
+Day-No.  
+Title  
+Link to Explaination  
 ScreenShot
