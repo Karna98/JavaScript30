@@ -1,11 +1,11 @@
 function index() {
 	const anchors = document.querySelectorAll("a");
-	console.log(anchors);
+
 	function redirectTo(id) {
 		urlId = id.substring(4);
 		if (urlId <= 30) {
 			url =
-				"https://karna98.github.io/-JavaScript30/Day-" +
+				"https://karna98.github.io/JavaScript30/Day-" +
 				urlId +
 				"/html_day_" +
 				urlId +
@@ -16,8 +16,7 @@ function index() {
 	}
 	anchors.forEach(anchor =>
 		anchor.addEventListener("onclick", function(e) {
-			console.log(e);
-			// redirectTo(id);
+			redirectTo(id);
 		})
 	);
 }
