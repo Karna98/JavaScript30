@@ -1,6 +1,7 @@
 html, body {
     width: 100%;
     height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 * {
@@ -21,20 +22,16 @@ html, body {
 
 .item {
     margin: 1rem;
-    top: 0;
-    bottom: 0;
     display: flex;
     height: auto;
     flex: 0 0 10%;
     align-items: center;
     justify-content: center;
-    font-size: x-large;
     text-decoration: none;
     background: #6883bc;
     box-shadow: inset 0 0 4rem 1rem #79a7d3;
     border-radius: 10%;
     border: 0.1rem solid white;
-    color: aliceblue;
 }
 
 .item:before {
@@ -42,6 +39,100 @@ html, body {
     padding-top:100%;
 }
 
+.item-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-start;
+    text-align: center;
+    color: white;
+}
+
+.item-day {
+    display: flex;
+    margin: 1rem;
+    height: 20%;
+    font-style: italic;
+    font-size: large;
+}
+
+.item-title {
+    display: flex;
+    margin: 2rem;
+    height: auto;
+    font-size: x-large;
+}
+
+.modal {
+    display: block;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 10%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content */
+.modal-content {
+    margin: auto;
+    padding: 1rem;
+    background: #6883bc;
+    box-shadow: inset 0 0 4rem 1rem #79a7d3;
+    border-radius: 1rem;
+    border: 0.1rem solid white;
+    width: 60%;
+    height: 50%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #8a307f;
+    float: right;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .preview-link:link, .preview-link:visited {
+    /* background-color: white; */
+    color: white;
+    border: 2px solid #8a307f;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+ .preview-link:hover, .preview-link:active {
+    background-color: #8a307f;
+  }
+
+  .modal-day {
+      padding: 1rem 0;
+      color: white;
+  }
+
+  .modal-title {
+    padding: 1rem 0;
+    color: white;
+}
+
+.modal-details {
+    padding: 1rem 0;
+    color: white;
+}
 @media (min-width: 992px) {
     .item {
         flex: 0 0 20%;
