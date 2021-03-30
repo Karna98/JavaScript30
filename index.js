@@ -49,7 +49,7 @@ function index() {
     const imagePreview = document.querySelector(
       ".modal .modal-body .modal-body-right .modal-preview img"
     );
-    imagePreview.setAttribute("src", "/assets/images/" + day + ".png");
+    imagePreview.setAttribute("src", "/JavaScript30/assets/images/" + day + ".png");
   }
 
   document.addEventListener("click", function (e) {
