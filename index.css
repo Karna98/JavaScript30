@@ -81,7 +81,7 @@ html {
 }
 
 .modal {
-  display: flex;
+  display: none;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -94,20 +94,122 @@ html {
 }
 
 .modal-content {
+  display: flex;
+  flex-direction: column;
   margin: auto;
-  padding: 1rem;
-  border-radius: 1rem;
   width: 60%;
   height: 50%;
+  padding: 1rem;
+  border-radius: 1rem;
   background: #fff;
   box-shadow: 0 0.6rem 1rem rgba(0, 0, 0, 0.08), 0 0 0.6rem rgba(0, 0, 0, 0.05);
+  /* background-color: burlywood; */
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #79a7d3; */
+}
+
+.modal-day {
+  padding: 0.5rem;
+  display: flex;
+  height: auto;
+  width: max-content;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-size: medium;
+  background-color: #79a7d3;
+  color: #fff;
+  border-radius: 2rem;
+}
+
+.modal-body {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 1rem;
+  height: auto;
+  width: auto;
+  flex: 1;
+  /* background-color: gray; */
+}
+
+.modal-body-left {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1;
+  height: auto;
+  width: 50%;
+}
+
+.modal-body-right {
+  display: flex;
+  flex: 1;
+  height: auto;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-title {
+  display: flex;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.modal-details {
+  padding: 1rem;
+  flex: 1;
+}
+
+.modal-preview {
+  position: relative;
+  width: 100%;
+}
+
+.modal-preview .image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 3rem;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.modal-preview .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0.3rem;
+  width: max-content;
+  font-size: 2rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-preview:hover .image {
+  opacity: 0.3;
+  transition: 0.5s ease;
+}
+
+.modal-preview:hover .text {
+  opacity: 1;
+  background-color: transparent;
+  transition: 0.5s ease;
 }
 
 .close {
   display: flex;
   width: 2rem;
   height: 2rem;
-  float: right;
+  padding-left: auto;
   font-size: 1rem;
   justify-content: center;
   align-items: center;
@@ -142,12 +244,6 @@ html {
     0 0.4rem 0.8rem rgba(0, 0, 0, 0.06);
 }
 
-.modal-day,
-.modal-details,
-.modal-title {
-  padding: 1rem 0;
-}
-
 @media (max-width: 1450px) and (min-width: 1100px) {
   .item {
     flex: 0 0 20%;
@@ -157,6 +253,18 @@ html {
 @media (max-width: 1100px) and (min-width: 600px) {
   .item {
     flex: 0 0 25%;
+  }
+}
+
+@media (max-width: 900px) {
+  .modal-body {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .modal-body-left,
+  .modal-body-right {
+    width: 80%;
   }
 }
 
