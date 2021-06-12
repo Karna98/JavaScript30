@@ -1,0 +1,12 @@
+@import url("base.css");
+
+canvas {
+    position: fixed;
+    left: 1%;
+    top: 1%;
+    width: 98%;
+    height: 98%;
+    border: 2px solid;
+    border-radius: 2rem;
+    background-color: white;
+}

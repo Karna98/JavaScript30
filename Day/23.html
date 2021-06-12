@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Speech Synthesis (Day-23)</title>
+        <link rel="stylesheet" href="../assets/css/23.css" />
+        <script src="../assets/js/23.js"></script>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <div class="info">
+                <div class="info-sign">
+                    <div class="symbol">i</div>
+                </div>
+                <span class="description">
+                    <b> <i>Tip</i> </b> : Personal Assistant !
+                </span>
+            </div>
+            <div class="source">
+                <a
+                    class="info"
+                    target="_blank"
+                    aria-hidden="true"
+                    title="View on Github"
+                    href="https://github.com/karna98/JavaScript30/#Day-23"
+                >
+                    <div class="info-sign">
+                        <div class="symbol">
+                            <img src="../assets/images/github.svg" />
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="voiceinator">
+            <div class="title">The Voiceinator 5000</div>
+
+            <select name="voice" id="voices">
+                <option value="">Select A Voice</option>
+            </select>
+
+            <div class="control-rate">
+                <label for="rate">Rate:</label>
+                <input
+                    name="rate"
+                    type="range"
+                    min="0"
+                    max="3"
+                    value="1"
+                    step="0.1"
+                />
+            </div>
+            <div class="control-pitch">
+                <label for="pitch">Pitch:</label>
+                <input name="pitch" type="range" min="0" max="2" step="0.1" />
+            </div>
+
+            <textarea name="text">Hello! I love JavaScript 👍</textarea>
+            <div class="buttons">
+                <button id="speak">Speak</button>
+                <button id="stop">Stop!</button>
+            </div>
+        </div>
+    </body>
+</html>

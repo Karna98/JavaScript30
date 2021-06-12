@@ -1,0 +1,67 @@
+@import url("base.css");
+
+.clock {
+    width: 30rem;
+    height: 30rem;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    padding: 2rem;
+    -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
+        inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
+        inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px); /* account for the height of the clock hands */
+}
+
+.hand {
+    width: 50%;
+    background: rgb(224, 224, 224);
+    position: absolute;
+    top: 50%;
+    -webkit-transform-origin: 100%;
+    -ms-transform-origin: 100%;
+    transform-origin: 100%;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.clock-center-circle {
+    width: 1rem;
+    height: 1rem;
+    background-color: #f1eedf;
+    border-radius: 50%;
+    position: relative;
+    top: 14.8rem;
+    left: 14.5rem;
+}
+
+.hour-hand {
+    width: 25%;
+    left: 25%;
+    height: 8px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.min-hand {
+    width: 35%;
+    left: 15%;
+    height: 5px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.second-hand {
+    height: 2px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+}

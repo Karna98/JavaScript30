@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Countdown Timer (Day-29)</title>
+        <link rel="stylesheet" href="../assets/css/29.css" />
+        <script src="../assets/js/29.js"></script>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <div class="info">
+                <div class="info-sign">
+                    <div class="symbol">i</div>
+                </div>
+                <span class="description">
+                    <b> <i>Tip</i> </b> : Take a Break !
+                </span>
+            </div>
+            <div class="source">
+                <a
+                    class="info"
+                    target="_blank"
+                    aria-hidden="true"
+                    title="View on Github"
+                    href="https://github.com/karna98/JavaScript30/#Day-29"
+                >
+                    <div class="info-sign">
+                        <div class="symbol">
+                            <img src="../assets/images/github.svg" />
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="timer">
+            <div class="timer__controls">
+                <button data-time="20" class="timer__button">20 Secs</button>
+                <button data-time="300" class="timer__button">Work 5</button>
+                <button data-time="900" class="timer__button">Quick 15</button>
+                <button data-time="1200" class="timer__button">Snack 20</button>
+                <button data-time="3600" class="timer__button">
+                    Lunch Break
+                </button>
+                <form name="customForm" id="custom">
+                    <input
+                        type="number"
+                        name="minutes"
+                        placeholder="Enter Minutes"
+                    />
+                </form>
+            </div>
+            <div class="display">
+                <h1 class="display__time-left"></h1>
+                <p class="display__end-time"></p>
+            </div>
+        </div>
+    </body>
+</html>

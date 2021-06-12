@@ -1,0 +1,172 @@
+@import url("base.css");
+
+.content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 70%;
+    height: 80%;
+    top: 5rem;
+    left: 0;
+}
+
+.search-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    margin: 1rem auto;
+    width: 70%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.search-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    padding: 0.5rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #fff;
+    -webkit-box-shadow: 0 0.3rem 0.5rem #f1eedfaf, 0 0 0.3rem #f1eedfaf;
+    box-shadow: 0 0.3rem 0.5rem #f1eedfaf, 0 0 0.3rem #f1eedfaf;
+    border-radius: 2rem;
+}
+
+.search {
+    width: 80%;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+    border: 1px solid transparent;
+}
+
+.search-results {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 100%;
+    overflow-y: auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.suggestions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.suggestions li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    list-style: none;
+    width: calc(100% - 6rem);
+    border-bottom: 0.1rem solid #d8d8d8;
+    -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.14);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.14);
+    padding: 1rem;
+    -webkit-transition: background 0.2s;
+    -o-transition: background 0.2s;
+    transition: background 0.2s;
+}
+
+.suggestions li:nth-child(even) {
+    -webkit-transform: perspective(100px) rotateX(3deg) translateY(2px)
+        scale(1.001);
+    transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
+    background: -o-linear-gradient(top, #ffffff 0%, #efefef 100%);
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(#ffffff),
+        to(#efefef)
+    );
+    background: linear-gradient(to bottom, #ffffff 0%, #efefef 100%);
+}
+
+.suggestions li:nth-child(odd) {
+    border-radius: 2%;
+    -webkit-transform: perspective(100px) rotateX(-3deg) translateY(3px);
+    transform: perspective(100px) rotateX(-3deg) translateY(3px);
+    background: -o-linear-gradient(bottom, #ffffff 0%, #efefef 100%);
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        from(#ffffff),
+        to(#efefef)
+    );
+    background: linear-gradient(to top, #ffffff 0%, #efefef 100%);
+}
+
+.name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40%;
+    font-size: 1rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    word-wrap: break-all;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+}
+
+.latitude {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30%;
+    font-size: 0.8rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.longitude {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30%;
+    font-size: 0.8rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}

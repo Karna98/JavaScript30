@@ -1,0 +1,72 @@
+@import url("base.css");
+
+.wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 3rem;
+    width: 40%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.95);
+    -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    font-weight: 200;
+}
+
+.videos {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    list-style: none;
+}
+
+.videos li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 0;
+    font-weight: 100;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.videos label {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    cursor: pointer;
+}
+
+.videos input {
+    display: none;
+}
+
+.videos input + label:before {
+    content: "⬜️";
+    margin-right: 2vw;
+}
+
+.videos input:checked + label:before {
+    content: "✔️";
+}
+
+.totalTime {
+    padding: 1rem;
+    text-align: center;
+    list-style: none;
+}

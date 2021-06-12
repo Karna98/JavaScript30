@@ -1,0 +1,61 @@
+@import url("base.css");
+
+.content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.button {
+    color: black;
+    background-color: #fcf8f9;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    font-size: 1rem;
+    -webkit-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border: 0.2rem solid black;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+    color: #fcf8f9;
+    border: 0.2rem solid #fcf8f9;
+}
+
+#bands {
+    list-style: inside square;
+    font-size: 20px;
+    background: white;
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    -webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+#bands li {
+    border-bottom: 1px solid #efefef;
+    padding: 20px;
+}
+
+#bands li:last-child {
+    border-bottom: 0;
+}
+
+a {
+    color: #ffc600;
+    text-decoration: none;
+}

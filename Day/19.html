@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Webcam Fun (Day-19)</title>
+        <link rel="stylesheet" href="../assets/css/19.css" />
+        <script src="../assets/js/19.js"></script>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <div class="info">
+                <div class="info-sign">
+                    <div class="symbol">i</div>
+                </div>
+                <span class="description">
+                    <b> <i>Tip</i> </b> : How you play with RGB (Red, Green,
+                    Blue) that matters.
+                </span>
+            </div>
+            <div class="source">
+                <a
+                    class="info"
+                    target="_blank"
+                    aria-hidden="true"
+                    title="View on Github"
+                    href="https://github.com/karna98/JavaScript30/#Day-19"
+                >
+                    <div class="info-sign">
+                        <div class="symbol">
+                            <img src="../assets/images/github.svg" />
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="photobooth">
+            <div class="photobooth-up">
+                <div class="controls">
+                    <div class="rgb">
+                        <div class="rgb-red">
+                            <div class="control-intensity">
+                                <label for="rmin">Red Min:</label>
+                                <input
+                                    type="range"
+                                    min="0"
+                                    max="255"
+                                    name="rmin"
+                                />
+                            </div>
+                            <div class="control-intensity">
+                                <label for="rmax">Red Max:</label>
+                                <input
+                                    type="range"
+                                    min="0"
+                                    max="255"
+                                    name="rmax"
+                                />
+                            </div>
+                        </div>
+                        <div class="rgb-green">
+                            <div class="control-intensity">
+                                <label for="gmin">Green Min:</label>
+                                <input
+                                    type="range"
+                                    min="0"
+                                    max="255"
+                                    name="gmin"
+                                />
+                            </div>
+                            <div class="control-intensity">
+                                <label for="gmax">Green Max:</label>
+                                <input
+                                    type="range"
+                                    min="0"
+                                    max="255"
+                                    name="gmax"
+                                />
+                            </div>
+                        </div>
+                        <div class="rgb-blue">
+                            <div class="control-intensity">
+                                <label for="bmin">Blue Min:</label>
+                                <input
+                                    type="range"
+                                    min="0"
+                                    max="255"
+                                    name="bmin"
+                                />
+                            </div>
+                            <div class="control-intensity">
+                                <label for="bmax">Blue Max:</label>
+                                <input
+                                    type="range"
+                                    min="0"
+                                    max="255"
+                                    name="bmax"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <button id="takePhoto" class="button">Take Photo</button>
+                </div>
+
+                <canvas class="photo"></canvas>
+            </div>
+
+            <div class="photobooth-down">
+                <div class="strip"></div>
+                <video class="player"></video>
+            </div>
+        </div>
+
+        <audio class="snap" src="../assets/audio/snap.mp3" hidden></audio>
+    </body>
+</html>

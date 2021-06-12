@@ -1,0 +1,11 @@
+@import url("base.css");
+
+.style {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    left: 2rem;
+    font-size: 5rem;
+    color: white;
+}

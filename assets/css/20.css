@@ -1,0 +1,79 @@
+@import url("base.css");
+
+.notebook {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 3rem auto;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 50%;
+}
+
+.warning-msg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    padding: 1rem;
+    background-color: yellow;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    border-radius: 2rem;
+}
+
+.words {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: black;
+    width: 70%;
+    margin: 1rem auto;
+    background: white;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0.7rem 0.7rem 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0.7rem 0.7rem 0 rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem 1rem 5rem;
+    background: -webkit-gradient(
+            linear,
+            0 0,
+            0 100%,
+            from(#d9eaf3),
+            color-stop(4%, #fff)
+        )
+        0 4px;
+    background-size: 100% 3rem;
+    position: relative;
+    line-height: 3rem;
+}
+
+.words:before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    top: 0;
+    left: 30px;
+    bottom: 0;
+    border: 1px solid;
+    border-color: transparent #efe4e4;
+}
+
+[contenteditable="true"]:empty:before {
+    content: attr(placeholder);
+    pointer-events: none;
+    display: block; /* For Firefox */
+}

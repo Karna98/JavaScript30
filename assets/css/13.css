@@ -1,0 +1,59 @@
+@import url("base.css");
+
+body {
+    display: block;
+}
+
+.site-wrap {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 50%;
+    margin: 3rem auto;
+    background: white;
+    padding: 3rem;
+    text-align: justify;
+}
+
+.site-wrap h1 {
+    padding: 1rem;
+}
+
+.align-left {
+    float: left;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.align-right {
+    float: right;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.slide-in {
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.align-left.slide-in {
+    -webkit-transform: translateX(-30%) scale(0.95);
+    -ms-transform: translateX(-30%) scale(0.95);
+    transform: translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-in {
+    -webkit-transform: translateX(30%) scale(0.95);
+    -ms-transform: translateX(30%) scale(0.95);
+    transform: translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+    opacity: 1;
+    -webkit-transform: translateX(0%) scale(1);
+    -ms-transform: translateX(0%) scale(1);
+    transform: translateX(0%) scale(1);
+}

@@ -1,0 +1,836 @@
+{
+    "data": [
+        {
+            "1": {
+                "title": "Instrumental",
+                "description": "Detecting key pressed and performing related action assigned to it.",
+                "references": [
+                    {
+                        "value": "querySelector()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector"
+                    },
+                    {
+                        "value": "classList",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Element/classList"
+                    },
+                    {
+                        "value": "if..else",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else"
+                    },
+                    {
+                        "value": "keydown()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Document/keydown_event"
+                    },
+                    {
+                        "value": "setTimeout()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout"
+                    },
+                    {
+                        "value": "addEventListener()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener"
+                    }
+                ]
+            }
+        },
+        {
+            "2": {
+                "title": "Clock",
+                "description": "Update CSS elements using JS to rotate clock hands.",
+                "references": [
+                    {
+                        "value": "Date()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date"
+                    },
+                    {
+                        "value": "Style transform Property",
+                        "link": "https://www.w3schools.com/jsref/prop_style_transform.asp"
+                    },
+                    {
+                        "value": "setInterval()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval"
+                    }
+                ]
+            }
+        },
+        {
+            "3": {
+                "title": "Playing with CSS",
+                "description": "Changing image properties by playing with different params.",
+                "references": [
+                    {
+                        "value": "querySelectorAll()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll"
+                    },
+                    {
+                        "value": "forEach()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
+                    },
+                    {
+                        "value": "setProperty()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty"
+                    },
+                    {
+                        "value": "DOMContentLoaded",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMContentLoaded_event"
+                    }
+                ]
+            }
+        },
+        {
+            "4": {
+                "title": "Array Cardio - I",
+                "description": "Playing with arrays in JS.",
+                "references": [
+                    {
+                        "value": "console",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/console"
+                    },
+                    {
+                        "value": "const",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const"
+                    },
+                    {
+                        "value": "arrays in JS",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
+                    },
+                    {
+                        "value": "filter()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"
+                    },
+                    {
+                        "value": "map()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
+                    },
+                    {
+                        "value": "reduce()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce"
+                    },
+                    {
+                        "value": "sort()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort"
+                    },
+                    {
+                        "value": "split()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split"
+                    }
+                ]
+            }
+        },
+        {
+            "5": {
+                "title": "Flex Gallery",
+                "description": "Update CSS flex behaviour with JS.",
+                "references": [
+                    {
+                        "value": "length",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length"
+                    },
+                    {
+                        "value": "classList",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Element/classList"
+                    },
+                    {
+                        "value": "events",
+                        "link": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events"
+                    }
+                ]
+            }
+        },
+        {
+            "6": {
+                "title": "Search it with JS",
+                "description": "Dynamica Search results",
+                "references": [
+                    {
+                        "value": "fetch()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"
+                    },
+                    {
+                        "value": "then()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then"
+                    },
+                    {
+                        "value": "json()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Body/json"
+                    },
+                    {
+                        "value": "Object.entries()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries"
+                    },
+                    {
+                        "value": "RegExp()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp"
+                    },
+                    {
+                        "value": "match()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match"
+                    },
+                    {
+                        "value": "push()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push"
+                    },
+                    {
+                        "value": "replace()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace"
+                    },
+                    {
+                        "value": "join()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join"
+                    },
+                    {
+                        "value": "innerHTML",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML"
+                    },
+                    {
+                        "value": "change",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event"
+                    },
+                    {
+                        "value": "keyup",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Document/keyup_event"
+                    }
+                ]
+            }
+        },
+        {
+            "7": {
+                "title": "Array Cardio - II",
+                "description": "Playing with arrays in JS.",
+                "references": [
+                    {
+                        "value": "console.log()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/log"
+                    },
+                    {
+                        "value": "console.table()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/table"
+                    },
+                    {
+                        "value": "some()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some"
+                    },
+                    {
+                        "value": "every()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every"
+                    },
+                    {
+                        "value": "find()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find"
+                    },
+                    {
+                        "value": "findIndex()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex"
+                    },
+                    {
+                        "value": "slice()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice"
+                    },
+                    {
+                        "value": "splice()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice"
+                    }
+                ]
+            }
+        },
+        {
+            "8": {
+                "title": "Draw on Canvas",
+                "description": "Canvas to draw the masterpiece.",
+                "references": [
+                    {
+                        "value": "canvas",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API"
+                    },
+                    {
+                        "value": "getContext()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext"
+                    },
+                    {
+                        "value": "beginPath()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/beginPath"
+                    },
+                    {
+                        "value": "moveTo()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/moveTo"
+                    },
+                    {
+                        "value": "lineTo()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineTo"
+                    },
+                    {
+                        "value": "stroke()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/stroke"
+                    }
+                ]
+            }
+        },
+        {
+            "9": {
+                "title": "Console Tricks!",
+                "description": "Playing with Javascript inbuilt functions.",
+                "references": [
+                    {
+                        "value": "console.clear()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/clear"
+                    },
+                    {
+                        "value": "console.log()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/log"
+                    },
+                    {
+                        "value": "console.warn()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/warn"
+                    },
+                    {
+                        "value": "console.error()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/error"
+                    },
+                    {
+                        "value": "console.info()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/info"
+                    },
+                    {
+                        "value": "console.assert()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/assert"
+                    },
+                    {
+                        "value": "console.dir()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/dir"
+                    },
+                    {
+                        "value": "console.groupCollapsed()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/groupCollapsed"
+                    },
+                    {
+                        "value": "console.groupEnd()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/groupEnd"
+                    },
+                    {
+                        "value": "console.count()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/count"
+                    },
+                    {
+                        "value": "console.time()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/time"
+                    },
+                    {
+                        "value": "console.timeEnd()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Console/timeEnd"
+                    }
+                ]
+            }
+        },
+        {
+            "10": {
+                "title": "Shift to Check Multiple Checkboxes",
+                "description": "Handling pressed key and mouse event.",
+                "references": [
+                    {
+                        "value": "KeyboardEvent.shiftKey",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/shiftKey"
+                    },
+                    {
+                        "value": "checked",
+                        "link": "https://www.w3schools.com/jsref/prop_checkbox_checked.asp"
+                    }
+                ]
+            }
+        },
+        {
+            "11": {
+                "title": "Custom Video Player",
+                "description": "Redefining Video Controls handled using JS.",
+                "references": [
+                    {
+                        "value": "click",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event"
+                    },
+                    {
+                        "value": "play",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play_event"
+                    },
+                    {
+                        "value": "pause",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause_event"
+                    },
+                    {
+                        "value": "timeupdate",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/timeupdate_event"
+                    },
+                    {
+                        "value": "mousemove",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event"
+                    },
+                    {
+                        "value": "mousedown",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Element/mousedown_event"
+                    },
+                    {
+                        "value": "mouseup",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseup_event"
+                    }
+                ]
+            }
+        },
+        {
+            "12": {
+                "title": "Konami Code",
+                "description": "Detecting user input words and the magic happens.",
+                "references": [
+                    {
+                        "value": "cornify",
+                        "link": "https://www.cornify.com/"
+                    },
+                    {
+                        "value": "includes",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes"
+                    },
+                    {
+                        "value": "try..catch",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch"
+                    }
+                ]
+            }
+        },
+        {
+            "13": {
+                "title": "Slide in on Scroll",
+                "description": "Image effect based on Scroll.",
+                "references": [
+                    {
+                        "value": "window",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window"
+                    },
+                    {
+                        "value": "scroll",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll"
+                    },
+                    {
+                        "value": "scrollY",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY"
+                    },
+                    {
+                        "value": "innerHeight",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight"
+                    }
+                ]
+            }
+        },
+        {
+            "14": {
+                "title": "References VS Copying",
+                "description": "Playing with JS datatypes.",
+                "references": [
+                    {
+                        "value": "let",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let"
+                    },
+                    {
+                        "value": "concat",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat"
+                    },
+                    {
+                        "value": "Spread (...)",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax"
+                    },
+                    {
+                        "value": "Object",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object"
+                    },
+                    {
+                        "value": "Object.assign()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign"
+                    },
+                    {
+                        "value": "JSON",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON"
+                    },
+                    {
+                        "value": "JSON.parse()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse"
+                    },
+                    {
+                        "value": "JSON.stringify",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify"
+                    }
+                ]
+            }
+        },
+        {
+            "15": {
+                "title": "LocalStorage",
+                "description": "Playing with local storage.",
+                "references": [
+                    {
+                        "value": "submit",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit_event"
+                    },
+                    {
+                        "value": "localStorage",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage"
+                    },
+                    {
+                        "value": "getItem()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Storage/getItem"
+                    },
+                    {
+                        "value": "setItem()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem"
+                    },
+                    {
+                        "value": "reset()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reset"
+                    },
+                    {
+                        "value": "matches()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Element/matches"
+                    },
+                    {
+                        "value": "return",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return"
+                    }
+                ]
+            }
+        },
+        {
+            "16": {
+                "title": "Mouse Shadow",
+                "description": "Effect based on mouse position.",
+                "references": [
+                    {
+                        "value": "offsetLeft",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetLeft"
+                    },
+                    {
+                        "value": "offsetTop",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop"
+                    },
+                    {
+                        "value": "Math",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math"
+                    },
+                    {
+                        "value": "round()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round"
+                    }
+                ]
+            }
+        },
+        {
+            "17": {
+                "title": "Sort Without Articles",
+                "description": "Sorting list.",
+                "references": [
+                    {
+                        "value": "getElementsByClassName()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName"
+                    },
+                    {
+                        "value": "trim()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim"
+                    }
+                ]
+            }
+        },
+        {
+            "18": {
+                "title": "Adding Up Times with Reduce",
+                "description": "Simple time addition using map-reduce.",
+                "references": [
+                    {
+                        "value": "var",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var"
+                    },
+                    {
+                        "value": "Conditional (ternary) operator '?'",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator"
+                    },
+                    {
+                        "value": "floor()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor"
+                    },
+                    {
+                        "value": "parentNode",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode"
+                    }
+                ]
+            }
+        },
+        {
+            "19": {
+                "title": "Webcam Fun",
+                "description": "Lets play with camera and colour.",
+                "references": [
+                    {
+                        "value": "navigator",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator"
+                    },
+                    {
+                        "value": "mediaDevices",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices"
+                    },
+                    {
+                        "value": "getUserMedia()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia"
+                    },
+                    {
+                        "value": "drawImage()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage"
+                    },
+                    {
+                        "value": "putImageData()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/putImageData"
+                    },
+                    {
+                        "value": "toDataURL()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL"
+                    },
+                    {
+                        "value": "setAttribute()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute"
+                    },
+                    {
+                        "value": "insertBefore()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore"
+                    },
+                    {
+                        "value": "canplay",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canplay_event"
+                    }
+                ]
+            }
+        },
+        {
+            "20": {
+                "title": "Speech Detection",
+                "description": "Speech to Text.",
+                "references": [
+                    {
+                        "value": "SpeechRecognition",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition"
+                    },
+                    {
+                        "value": "webkitSpeechRecognition",
+                        "link": "https://developers.google.com/web/updates/2013/01/Voice-Driven-Web-Apps-Introduction-to-the-Web-Speech-API"
+                    },
+                    {
+                        "value": "recognition.start()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/start"
+                    },
+                    {
+                        "value": "recognition.interimResults",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/interimResults"
+                    },
+                    {
+                        "value": "createElement()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement"
+                    },
+                    {
+                        "value": "appendChild()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild"
+                    },
+                    {
+                        "value": "end",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/end_event"
+                    }
+                ]
+            }
+        },
+        {
+            "21": {
+                "title": "Geolocation",
+                "description": "Getting current location and speed.",
+                "references": [
+                    {
+                        "value": "navigator.geolocation",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/geolocation"
+                    },
+                    {
+                        "value": "watchPosition()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/watchPosition"
+                    },
+                    {
+                        "value": "speed",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/GeolocationCoordinates/speed"
+                    },
+                    {
+                        "value": "heading",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/GeolocationCoordinates/heading"
+                    },
+                    {
+                        "value": "latitude",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/GeolocationCoordinates/latitude"
+                    },
+                    {
+                        "value": "longitude",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/GeolocationCoordinates/longitude"
+                    }
+                ]
+            }
+        },
+        {
+            "22": {
+                "title": "Follow Along Nav",
+                "description": "Tracking mouse.",
+                "references": [
+                    {
+                        "value": "mouseenter",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseenter_event"
+                    },
+                    {
+                        "value": "scrollX",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollX"
+                    },
+                    {
+                        "value": "getBoundingClientRect()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect"
+                    }
+                ]
+            }
+        },
+        {
+            "23": {
+                "title": "Speech Synthesis",
+                "description": "Text to Speech.",
+                "references": [
+                    {
+                        "value": "SpeechSynthesisUtterance()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance"
+                    },
+                    {
+                        "value": "speak()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/speak"
+                    }
+                ]
+            }
+        },
+        {
+            "24": {
+                "title": "Sticky Nav",
+                "description": "Fancy navbar.",
+                "references": [
+                    {
+                        "value": "classList.add()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/add"
+                    },
+                    {
+                        "value": "classList.remove()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/remove"
+                    }
+                ]
+            }
+        },
+        {
+            "25": {
+                "title": "Understanding JavaScript's Capture",
+                "description": "Understand the displayed layout.",
+                "references": [
+                    {
+                        "value": "addEventListener - capture",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener"
+                    },
+                    {
+                        "value": "addEventListener - once",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener"
+                    },
+                    {
+                        "value": "stopPropagation()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation"
+                    }
+                ]
+            }
+        },
+        {
+            "26": {
+                "title": "Follow Along Nav",
+                "description": "Fancy navbar menu.",
+                "references": [
+                    {
+                        "value": "mouseleave",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseleave_event"
+                    }
+                ]
+            }
+        },
+        {
+            "27": {
+                "title": "Click and Drag",
+                "description": "Visualiser.",
+                "references": [
+                    {
+                        "value": "pageX",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/pageX"
+                    }
+                ]
+            }
+        },
+        {
+            "28": {
+                "title": "Video Speed Scrubber",
+                "description": "Playing with playback Speed.",
+                "references": [
+                    {
+                        "value": "pageY",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/pageY"
+                    },
+                    {
+                        "value": "offsetTop",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop"
+                    },
+                    {
+                        "value": "offsetHeight",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetHeight"
+                    },
+                    {
+                        "value": "toFixed()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed"
+                    }
+                ]
+            }
+        },
+        {
+            "29": {
+                "title": "Countdown Timer",
+                "description": "Utility Tool to take a break from work.",
+                "references": [
+                    {
+                        "value": "clearInterval()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval"
+                    },
+                    {
+                        "value": "Date.now()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now"
+                    },
+                    {
+                        "value": "getHours()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getHours"
+                    },
+                    {
+                        "value": "getMinutes()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMinutes"
+                    },
+                    {
+                        "value": "preventDefault()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault"
+                    }
+                ]
+            }
+        },
+        {
+            "30": {
+                "title": "Whack A Mole!",
+                "description": "Samll Fun Game.",
+                "references": [
+                    {
+                        "value": "random()",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random"
+                    },
+                    {
+                        "value": "event.isTrusted",
+                        "link": "https://developer.mozilla.org/en-US/docs/Web/API/Event/isTrusted"
+                    }
+                ]
+            }
+        }
+    ]
+}

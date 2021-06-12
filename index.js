@@ -1,7 +1,7 @@
 function index() {
   function getDataFromJSON(day) {
     let request = new XMLHttpRequest();
-    request.open("GET", "meta-data.json");
+    request.open("GET", "assets/meta-data.json");
     request.responseType = "json";
     request.send();
 
@@ -20,6 +20,12 @@ function index() {
 
     const modalDiv = document.getElementsByClassName("modal");
     modalDiv[0].style.display = "flex";
+
+    const href = '"/JavaScript30/Day-' + day + '/html_day_' + day + '.html"';
+    const src = '"/JavaScript30/assets/images/' + day + '.png"';
+
+    // const href = '"/Day/' + day + '.html"';
+    // const src = '"/assets/images/' + day + '.png"';
 
     modalDiv[0].innerHTML =
       `
@@ -42,18 +48,12 @@ function index() {
             <a
               role="button"
               rel="noopener noreferrer"
-              href="/JavaScript30/Day-` +
-      day +
-      `/html_day_` +
-      day +
-      `.html"
+              href=` + href + `
               target="_blank"
               aria-hidden="true"
               title="Preview"
             >
-              <img class="image" src="/JavaScript30/assets/images/` +
-      day +
-      `.png" alt="Preview Project" />
+              <img class="image" src=` + src + `alt="Preview Project" />
               <div>
                 <div class="text">&#x1F517;</div>
               </div>
